@@ -26,6 +26,16 @@ Linking human motion and natural language is of great interest for the generatio
 
 [📄 Paper](https://arxiv.org/abs/1607.03827) | [💻 Code](https://motion-annotation.humanoids.kit.edu/dataset/)
 
+### [CVPR, 2022] Generating Diverse and Natural 3D Human Motions from Text
+**Authors**: Chuan Guo, Shihao Zou, Xinxin Zuo, Sen Wang, Wei Ji, Xingyu Li, Li Cheng
+<details span>
+<summary><b>Abstract</b></summary>
+Automated generation of 3D human motions from text is a challenging problem. The generated motions are expected to be sufficiently diverse to explore the text-grounded
+motion space, and more importantly, accurately depicting the content in prescribed text descriptions. Here we tackle this problem with a two-stage approach: text2length sampling and text2motion generation. Text2length involves sampling from the learned distribution function of motion lengths conditioned on the input text. This is followed by our text2motion module using temporal variational autoencoder to synthesize a diverse set of human motions of the sampled lengths. Instead of directly engaging with pose sequences, we propose motion snippet code as our internal motion representation, which captures local semantic motion contexts and is empirically shown to facilitate the generation of plausible motions faithful to the input text. Moreover, a large-scale dataset of scripted 3D Human motions, HumanML3D, is constructed, consisting of 14,616 motion clips and 44,970 text descriptions.
+</details>
+
+[📄 Paper](https://arxiv.org/abs/1607.03827) | [💻 Code](https://motion-annotation.humanoids.kit.edu/dataset/)
+
 ## Text-to-Motion
 
 ### [ECCV, 2022] TEMOS: Generating diverse human motions from textual descriptions
